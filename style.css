@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+li a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 150px;
+    background-color: #1f2937;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+}
+
+.cta .main-txt{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.cta .second-txt{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta .btn{
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #e5e7eb;
+}
+
+.cta .her-image-box{
+    width: 400px;
+    height: 200px;
+}
+
+.card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.cards-title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border:5px solid #1f2937;
+    border-radius: 10px;
+}
