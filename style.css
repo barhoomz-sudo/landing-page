@@ -119,3 +119,24 @@ li a{
     text-wrap: wrap;
     font-size: 18px;
 }
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 100px 295px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1e3629;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.name{
+    font-weight: 800;
+    margin-top: 10px;
+    text-align: right;
+}
